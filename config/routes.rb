@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get 'homepage/landpage'
   get 'newpage/home'
   resources :friends
   get 'home/about' 
